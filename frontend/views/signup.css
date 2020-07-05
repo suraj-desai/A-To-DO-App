@@ -17,11 +17,7 @@ body{
     transition: 1s;
 }
 .signUp:hover{
-    border-radius: 15px;
-    display: flex;
     background:darkkhaki;
-    width: 60%;
-    height:60%;
     transition: 1s;
 }
 
@@ -48,7 +44,7 @@ img{
 .signUp__form__fields__input{
     height:30px;
     border: 0;
-    border-bottom: rgb(194, 93, 93);
+    border: 1px solid #0f4c75;
     border-radius: 15px;
     margin:10px;
     padding:10px;

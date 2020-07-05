@@ -1,0 +1,102 @@
+body{
+    background-image: linear-gradient(rgba(192,57,43 ,0.7), rgba(44,62,80 ,0.7)),url(todo.jpeg) ;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height:100vh;
+}
+
+.signUp{
+    border-radius: 15px;
+    display: flex;
+    background:#bbe1fa;
+    width: 60%;
+    height:60%;
+    transition: 1s;
+}
+.signUp:hover{
+    border-radius: 15px;
+    display: flex;
+    background:darkkhaki;
+    width: 60%;
+    height:60%;
+    transition: 1s;
+}
+
+.signUp__intro, .signUp__form{
+    width:50%;
+    padding: 30px 30px;
+    text-align: center;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+.signUp__form__fields{
+    display:flex;
+    flex-direction: column;
+}
+
+.signUp__form__fields__input{
+    height:30px;
+    border: 0;
+    border-bottom: rgb(194, 93, 93);
+    border-radius: 15px;
+    margin:10px;
+    padding:10px;
+    outline: 0;
+}
+.signUp__form__fields__input:hover{
+    background-color: bisque;
+    outline: 0;
+}
+button{
+    border: none;
+    width: 60px;
+    height:40px;
+    border-radius: 15px;
+    outline: 0;
+    transition: 1s;
+}
+
+.signup--button{
+    background-color: #12cad6;
+    display: block;
+    margin: 20px 20px;
+}
+
+.login--button{
+    background-color: goldenrod;
+    margin: 20px 20px;
+    margin-top: 5px;
+
+}
+
+button:hover{
+    background-color: green;
+    cursor: pointer;
+    transition: 1s;
+}
+.signUp__form__submit{
+    display: flex;
+    margin-top: 10px;
+    margin-left:20px;
+}
+ .checkbox{
+    width:25px;
+    height:25px;
+}
+
+.terms{
+    padding-left:8px;
+    text-align:center;
+    color: red;
+} 

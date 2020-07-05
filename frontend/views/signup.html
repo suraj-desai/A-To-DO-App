@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trello-SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="signUp">
+        <section class="signUp__intro">
+            <img src="logo.jpg" alt="">
+            <h3>Trello : To-DO for you</h3>
+            <p>
+                This is To-Do web app to make the life easy for you.
+                SignUp and get your daily works done.
+            </p>
+            <div>
+                <h4>Already have an account?</h4>
+                <button type="submit" name="submit" class="login--button">Login</button>
+            </div>
+        </section>
+        <form class="signUp__form">
+            <h3>SignUp</h3>
+            <div class="signUp__form__fields">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="signUp__form__fields__input">
+                <label for="password">Password</label>
+                <input type="password" name="password" class="signUp__form__fields__input">
+            </div>
+            <div class="signUp__form__submit">
+                <input type="checkbox" class="checkbox"><span class="terms">I agree to terms and condition</span>
+            </div>
+            <button type="submit" name="submit" class="signup--button">Signup</button>
+        </form>
+    </main>
+</body>
+</html>
